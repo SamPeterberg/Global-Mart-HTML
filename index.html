@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global-Mart</title>
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>MEGA MART</h1>
+            <h2>Your Complete Shopping Destination</h2>
+            <ul>
+                <li> <a href="">Home</a></li>
+                <li> <a href="">Electronics</a></li>
+                <li> <a href="">Fashion</a></li>
+                <li> <a href="">Books</a></li>
+                <li> <a href="">Cart</a></li>
+                <li> <a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Product Search</h1>
+            <div id="search">
+                <input type="search" name="Search" size="30" placeholder="Search over 10,000 products">
+                <input type="button" value="Search">
+            </div>
+        </section>
+        <section id="products">
+            <h1>Featured Products</h1>
+            <center>
+                <p>Today's Special Products</p>
+            </center>
+            <center>
+                <table border="">
+                    <th>Product</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Action</th>
+                   <tr>
+                    <td>
+                        <img src="https://appleman.pk/cdn/shop/products/Model-P9-Headphone-5.jpg?v=1667811930" width="150" alt="">
+                        <h3>Wireless Headphones</h3>
+                    </td>
+                    <td>
+                        <p>High-quality sound with noise cancellation</p>
+                        <ul>
+                            <li>40mm Drivers</li>
+                            <li>Bluetooth 5.0</li>
+                            <li>20 hours battery life</li>
+                            <li>Built-in microphone</li>
+                        </ul>    
+                    </td>
+                    <td>
+                  <p><strike>$199.99</strike></p>
+                  <p>$149.99</p>
+                    </td>
+                    <td>
+                        in stock
+                    </td>
+                    <td>
+                    <button>ADD TO CART</button>
+                    <p>Available Quantities: 15</p>
+                    </td>
+                </tr> 
+                   <tr>
+                    <td>
+                        <img src="https://images.priceoye.pk/apple-watch-ultra-49mm-pakistan-priceoye-uovmj-500x500.webp" width="150" alt="">
+                        <h3>Apple Watch 8</h3>
+                    </td>
+                    <td>
+                        <p>Advance fitness tracking smart Watch</p>
+                        <ol>
+                            <li>Heart Rate monitoring</li>
+                            <li>Gps tracking</li>
+                            <li>20 days battery life</li>
+                            <li>Water resistant</li>
+                        </ol>    
+                    </td>
+                    <td>
+                  <p>$89.99</p>
+                    </td>
+                    <td>
+                        Low stock
+                    </td>
+                    <td>
+                    <button>ADD TO CART</button>
+                    </td>
+                </tr> 
+                </table>
+            </center>
+       </section>
+       <section id="Signup">
+        <h1>Create New Account</h1>
+        <form action="">
+            <fieldset>
+                <legend>
+                    Personal Information
+                </legend>
+                <label for="firstName">First Name:</label>
+                <input type="text" id="firstName">
+
+                <label for="lastName">Last Name:</label>
+                <input type="text" id="lastName">
+
+                <label for="DOB">Date of birth</label>
+                <input type="date" id="DOB">
+                <br>
+                Gender:
+                <label for="">Male</label>
+                <input type="radio" name="Male" required>
+                <label for="">Female</label>
+                <input type="radio" name="Male" required>
+            </fieldset>
+            <fieldset>
+                <legend>
+                    Account Deatils
+                </legend>
+                <label for="Email">Email:</label>
+                <input type="text" id="Email" required>
+
+                <label for="Password">Password:</label>
+                <input type="text" id="Password" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="number" id="phone" required>
+            
+                <label for="subscribe">Subscribe For Newsletter:</label>
+                <input type="checkbox" required name="" id="subscribe">
+                </fieldset>
+            <fieldset>
+                <legend>
+                    Shipping Address
+                </legend>
+        
+                    <label for="Address">Street Address:</label>
+                    <input type="text" id="address" required>
+    
+                <label for="country">country:</label>
+                <input type="text" id="country" required>
+                
+                <label for="zip">Zip Code:</label>
+                <input type="number" id="zip" required>
+                </fieldset>
+                <input type="submit" value="Create Account" name="" id="">
+                <input type="reset" value="Clear Form" id="">
+            </form>
+       </section>
+       <section id="comparasion">
+        <h1>Product Comparision</h1>
+        <center>
+            <table border="">
+                <th><b>Feature</b></th>
+                <th><b>Basic Model</b></th>
+                <th><b>Pro Model</b></th>
+                <th><b>Premium Model</b></th>
+                <tr>
+                    <td><b>Battery Life</b></td>
+                    <td>8 Hours</td>
+                    <td>12 Hours</td>
+                    <td>24 Hours</td>
+                </tr>
+                <tr>
+                    <td><b>Water Resistant</b></td>
+                    <td>IPX4</td>
+                    <td>IPX7</td>
+                    <td>IP68</td>
+                </tr>
+                <tr>
+                    <td><b>Warranty</b></td>
+                    <td>1 Year</td>
+                    <td colspan="2">2 Year</td>
+                </tr>
+                <tr>
+                    <td colspan="4"><p>* All Price Include VAT</p></td>
+                </tr>
+            </table>
+        </center>
+       </section>
+       <section id="Checkout">
+        <h1>Checkout Process</h1>
+        <form action="">
+            <fieldset>
+                <legend>Payment Information</legend>
+                <label for="card">
+                    Card Type:
+                </label>
+                <input type="radio" name="Visa" id="">
+                <label for="Visa">Visa</label>
+                
+                <input type="radio" name="masterCard" id="">
+                <label for="masterCard">MasterCard</label>
+                
+                <input type="radio" name="PayPak"id="">
+                <label for="PayPak">PayPak</label>
+                <br>
+                
+                <label for="cardNumber">Card Number</label>
+                <input type="number"  name="cardNumber" id="" required>
+
+                <label for="Expiry">Expiry Date</label>
+                <input type="date"  name="Expiry" id="" required >
+            </fieldset>
+            <fieldset>
+                <legend>Order Summary</legend>
+                <table border="">
+                    <th><b>Item</b></th>
+                    <th><b>Quantity</b></th>
+                    <th><b>Price</b></th>
+                    <tr>
+                        <td>Wireless Headphones</td>
+                        <td>2</td>
+                        <td>$299.98</td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td>--</td>
+                        <td>$15</td>
+                    </tr>
+                    <tr>
+                        <td colspan="2"><center><b>TOTAL</b></center></td>
+                        <td>$314.98 </td>
+                    </tr>
+                </table>
+            </fieldset>
+            <input type="submit" value="Complete Purchase">
+        </form>
+       </section>
+       <section id="video">
+           <h1>Product video</h1>
+           <iframe width="560" height="315" src="https://www.youtube.com/embed/HD13eq_Pmp8?si=TcJxtiFdXXGnvD5-" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </section>
+        <section id="audio">
+            <h1>Audio Description</h1>
+            <audio src="/Audio/file_example_MP3_700KB.mp3" controls></audio>
+        </section>
+        <section id="Contact">
+         <h1><I>Contact Us</I></h1>
+         <p>Email: <a href="mailto: support@megamart.com">support@megamart.com</a></p>
+         <p>Email: <a href="tel: +1 (124) 456-8793 ">+1 (124) 456-8793</a></p>
+         <address>Address: 123 commerce street New York, NY 10001</address>
+         <h1>Our Location</h1>
+         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.909441391009!2d67.1956125744299!3d24.866942344999934!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3eb331004a2aa071%3A0xf2e132e72edf7754!2sSMIT%20Malir%20Campus!5e0!3m2!1sen!2s!4v1747403477314!5m2!1sen!2s" width="600" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+    </main>
+    <footer>
+        <section id="QuickLinks">
+           <ul>
+               <li><a href="" target="_blank">Terms of Service</a></li>
+               <li><a href="">Privacy Policy</a></li>
+               <li><a href="">Return Policy</a></li>
+           </ul>
+        </section>
+        <section id="copyRight">
+            <p>&copy; 2023 MEGA MART. All rights reserved.</p>
+            <p>Follow us on <a href="">Social media</a></p>
+        </section>
+    </footer>
+</body>
+</html>
